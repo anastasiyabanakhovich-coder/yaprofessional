@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Я — профессионал | PRO-навигатор</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <a class="official-brand" href="https://yandex.ru/profi?utm_source=ip10_reg_lider&utm_medium=organic&utm_campaign=BanakhovichAD" target="_blank" rel="noopener">
+    <img src="assets/rocket.webp" alt="Ракета"><span><b>Я — ПРОФЕССИОНАЛ</b><small>ВСЕРОССИЙСКАЯ ОЛИМПИАДА СТУДЕНТОВ</small></span>
+  </a>
+  <nav><a href="#about">Об олимпиаде</a><a href="#tracks">Направления</a><a href="#games">Активности</a><a href="#store">PRO Store</a></nav>
+  <a class="btn" href="https://yandex.ru/profi?utm_source=ip10_reg_lider&utm_medium=organic&utm_campaign=BanakhovichAD" target="_blank" rel="noopener">Регистрация ↗</a>
+</header>
+
+<main>
+<section class="hero">
+ <div class="hero-copy">
+  <span class="label">X СЕЗОН · 2026/27</span>
+  <h1>Найди своё<br>направление.<br><em>Проверь себя.</em><br>Действуй.</h1>
+  <p>Игровой навигатор по Всероссийской олимпиаде студентов «Я — профессионал»: изучи возможности, подбери направление, выполни задания и переходи к официальной регистрации.</p>
+  <div class="actions"><a class="btn big" href="https://yandex.ru/profi?utm_source=ip10_reg_lider&utm_medium=organic&utm_campaign=BanakhovichAD" target="_blank">Участвовать ↗</a><a class="btn outline" href="#test">Подобрать направление</a></div>
+  <div class="dates"><div><b>03.09–10.11.2026</b><small>Регистрация</small></div><div><b>13–29.11.2026</b><small>Отборочный этап</small></div><div><b>Февраль–апрель 2027</b><small>Заключительный этап</small></div></div>
+ </div>
+ <div class="hero-side">
+   <img class="rocket-float" src="assets/rocket.webp" alt="Фирменная ракета">
+   <div class="balance"><small>ТВОЙ PRO-БАЛАНС</small><strong><span id="score">0</span> PRO</strong><p id="level">Уровень: Старт</p><div class="bar"><i id="bar"></i></div><a href="#games">Начать маршрут →</a></div>
+ </div>
+</section>
+
+<section id="about" class="section">
+ <span class="label">ОБ ОЛИМПИАДЕ</span><h2>Знания встречаются с практикой</h2>
+ <div class="stats"><article><strong>68</strong><h3>дисциплин X сезона</h3><p>Направления от инженерии и IT до гуманитарных, педагогических, медицинских и социально-экономических наук.</p></article><article><strong>2017</strong><h3>проект развивается с этого года</h3><p>Участники решают практико-ориентированные задачи и могут выстраивать дальнейшую образовательную и карьерную траекторию.</p></article><article><strong>8</strong><h3>групп направлений</h3><p>На платформе можно быстро определить интересующий блок и перейти к официальному каталогу дисциплин.</p></article></div>
+</section>
+
+<section id="tracks" class="section dark"><span class="label">НАПРАВЛЕНИЯ</span><h2>Выбери профессиональную траекторию</h2>
+<div class="tracks">
+<button>⚙️<b>Инженерные науки</b><small>технологии · энергетика · транспорт</small></button>
+<button>⌘<b>Компьютерные науки</b><small>IT · программирование · цифровые решения</small></button>
+<button>◌<b>Естественные науки</b><small>математика · физика · химия · биология</small></button>
+<button>↗<b>Социально-экономические</b><small>экономика · управление · общественные науки</small></button>
+<button>✦<b>Креативные и гуманитарные</b><small>креативные индустрии · языки · коммуникации</small></button>
+<button>＋<b>Медицина</b><small>медицина · здравоохранение</small></button>
+<button>◎<b>Педагогика</b><small>образование · педагогические науки</small></button>
+<button>⌁<b>АПК</b><small>аграрные и пищевые технологии</small></button>
+</div><a class="btn white" href="https://yandex.ru/profi?utm_source=ip10_reg_lider&utm_medium=organic&utm_campaign=BanakhovichAD" target="_blank">Перейти на сайт олимпиады ↗</a></section>
+
+<section id="test" class="section"><span class="label">PRO-НАВИГАТОР · +40 PRO</span><h2>Какое направление тебе подходит?</h2><p class="lead2">Ответь на 5 вопросов и получи игровой ориентир.</p><div class="panel" id="quizbox"></div></section>
+
+<section id="games" class="section"><span class="label">PRO-ЗОНА</span><h2>Прокачайся до регистрации</h2>
+<div class="cards">
+<article><mark>+50 PRO</mark><div class="ico">?</div><h3>PRO-викторина</h3><p>7 вопросов об этапах и возможностях олимпиады.</p><button class="btn" onclick="startTrivia()">Играть</button></article>
+<article><mark>+80 PRO</mark><div class="ico">⚡</div><h3>Мини-хакатон</h3><p>Получи кейс и собери решение по короткому шаблону.</p><button class="btn" onclick="hack()">Получить кейс</button></article>
+<article><mark>+30 PRO</mark><div class="ico">✓</div><h3>Чек-лист участника</h3><p>Собери персональный маршрут подготовки.</p><button class="btn" onclick="check()">Открыть</button></article>
+</div></section>
+
+<section id="store" class="section store"><span class="label">PRO STORE · КОНЦЕПТ</span><h2>Каталог брендированных наград</h2><p class="lead2">Игровая демонстрация механики вовлечения. Изображения ниже — концепт-мокапы на основе предоставленной фирменной графики, а не официальный магазин.</p><div class="gifts" id="gifts"></div></section>
+
+<section class="section sticker-zone">
+ <div><span class="label">ФИРМЕННАЯ ГРАФИКА</span><h2>Космос возможностей</h2><p>Добавили предоставленный набор стикеров прямо в платформу — файл хранится локально, поэтому GitHub Pages его увидит.</p></div>
+ <img src="assets/stickers.jpg" alt="Стикеры Я — профессионал">
+</section>
+
+<section class="section final"><div><span class="label">ГОТОВ?</span><h2>Переходи к регистрации</h2><p>Все кнопки регистрации на этой платформе ведут по вашей персональной ссылке.</p></div><a class="btn big white" href="https://yandex.ru/profi?utm_source=ip10_reg_lider&utm_medium=organic&utm_campaign=BanakhovichAD" target="_blank">Зарегистрироваться ↗</a></section>
+</main>
+<footer><a href="https://yandex.ru/profi?utm_source=ip10_reg_lider&utm_medium=organic&utm_campaign=BanakhovichAD" target="_blank"><img src="assets/rocket.webp" alt=""> Я — ПРОФЕССИОНАЛ</a><small>Неофициальный демонстрационный PRO-навигатор. Правила и регистрация — на официальном сайте олимпиады.</small></footer>
+<div id="modal" class="modal hide"><div class="dialog"><button class="close" onclick="closeM()">×</button><div id="mb"></div></div></div>
+<script src="app.js"></script></body></html>
